@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <!--logo-->
+            <div class="nav-logo border " >
+                <div class="logo">
+                    <img src="amazon-logo.png" alt="amazon-logo" height="40px" style="margin-top: 10px;">
+                </div>
+            </div>
+            <!--Address-->
+            <div class="nav-address border">
+                <p class="add-first">Delivery to</p>
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec">India</p>
+                </div>
+            </div>
+            <!--search-->
+            <div class="nav-search border">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon.in" class="search-input" onclick=check()>
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!-- Sign In -->
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-sec">Account & Lists</p>
+            </div>
+            <div class="nav-signin border">
+                <p><span>Returns</span></p>
+                <p class="nav-sec">& Orders</p>
+            </div>
+            <!-- Cart -->
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping" ondblclick="cart()" ></i>
+                Cart
+            </div>
+        </div>
+        <!-- Panel -->
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer Services</p>
+                <p>Customer Services</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sells</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in electronics
+            </div>
+        </div>
+    </header>
+    <!-- Hero SEction -->
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com.You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to amazon.in</a></p>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/WomenSneakers.gif');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Women's Sneakers & Sandals</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/watches._CB581315647_.gif');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Women's Tops & Dresses</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/Women\'sTops&Dresses.gif');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/MenSneakers.gif');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <h2>Amazon combos @ 40% Discount</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/Tops_and_tees_434x658_1709809594308_0._CB580646075_.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <h2>Women's Sneakers & Sandals</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/lugguage.gif');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <h2>Men's T-Shirts & Shorts</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/menshirt.gif');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Women's kurti & Kurta Set</h2>
+                <div class="box-img" style="background-image:url('amazon.logo_files/WomenKurta.gif');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+    
+    </div>
+    <footer>Copyright @ Amazon</footer>
+    <script src="script.js"></script>
+</body>
+</html>
